@@ -15,7 +15,12 @@
       ],
       "essential": true,
       "environment": [],
-      "environmentFiles": [],
+      "environmentFiles": [
+        {
+          "value": "arn:aws:s3:::njverse-portfolio/prod-backend.env",
+          "type": "s3"
+        }
+      ],
       "mountPoints": [],
       "volumesFrom": [],
       "logConfiguration": {
